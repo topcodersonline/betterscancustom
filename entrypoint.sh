@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 export CODE_DIR="/github/workspace"
-git checkout $1
+git checkout ${GITHUB_SHA}
 cd $CODE_DIR
 cd $CODE_DIR && checkmate init
 cd $CODE_DIR && checkmate git init
