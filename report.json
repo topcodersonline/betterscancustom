@@ -1,0 +1,20 @@
+[
+    {
+        "hash": "58dcd67d7e5553cd0796570c1c6c1fe4",
+        "description": "Highentropy",
+        "file": ".checkmate/config.json",
+        "line": 1
+    },
+    {
+        "hash": "678d58dca357b79eb1c8af35e82502a0",
+        "description": "Ensure that a user for the container has been created",
+        "file": "Dockerfile",
+        "line": 1
+    },
+    {
+        "hash": "9a3e13f10714cd530b232c247a6e0b38",
+        "description": "Ensure that HEALTHCHECK instructions have been added to container images",
+        "file": "Dockerfile",
+        "line": 1
+    }
+]
