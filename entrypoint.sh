@@ -6,8 +6,3 @@ cd $CODE_DIR && checkmate init
 cd $CODE_DIR && checkmate git init
 cd $CODE_DIR && checkmate git analyze --branch $1
 cd $CODE_DIR && checkmate issues html
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-git init && git add . && git commit -m "state"
-git branch $1
-git push origin $1
