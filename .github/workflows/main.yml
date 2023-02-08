@@ -6,11 +6,11 @@ jobs:
    runs-on: ubuntu-latest
    name: Betterscan scan job
    steps:
-    - name: Cache vdb
+    - name: Cache checkmate
       uses: actions/cache@v2
       with:
         path: |
-          ${{ github.workspace }}/vdb
+          ${{ github.workspace }}/.checkmate
         key: ${{ runner.os }}
     - uses: actions/checkout@v3
       with:
