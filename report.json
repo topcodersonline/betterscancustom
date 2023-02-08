@@ -1,0 +1,23 @@
+[
+    {
+        "hash": "8e40a213417f2767f2106e41fe6be9e4",
+        "description": "Ensure top-level permissions are not set to write-all",
+        "severity": "Warning",
+        "file": ".github/workflows/main.yml",
+        "line": 0
+    },
+    {
+        "hash": "9a3e13f10714cd530b232c247a6e0b38",
+        "description": "Ensure that HEALTHCHECK instructions have been added to container images",
+        "severity": "Warning",
+        "file": "Dockerfile",
+        "line": 1
+    },
+    {
+        "hash": "678d58dca357b79eb1c8af35e82502a0",
+        "description": "Ensure that a user for the container has been created",
+        "severity": "Warning",
+        "file": "Dockerfile",
+        "line": 1
+    }
+]
