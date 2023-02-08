@@ -1,6 +1,2 @@
 # betterscancustom
 # betterscancustom
-
-Action
-
-Test
