@@ -1,0 +1,17 @@
+# action.yml
+name: 'Betterscan Custom Scan Action'
+description: 'Betterscan Custom Scan Action'
+inputs:
+  branch: 
+    description: 'branch'
+    required: true
+    default: 'main'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.branch }}
+branding:
+  icon: 'award'  
+  color: 'green'
+  
