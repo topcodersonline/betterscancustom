@@ -1,9 +1,8 @@
 #!/bin/sh -l
-
+git config --global --add safe.directory $CODE_DIR
 export CODE_DIR="/github/workspace"
 cd $CODE_DIR
 git checkout $1
-git config --global --add safe.directory $CODE_DIR
 cd $CODE_DIR && checkmate init
 cd $CODE_DIR && checkmate git init
 cd $CODE_DIR && checkmate git analyze --branch $1
